@@ -1,0 +1,220 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "sku": 1,
+      "title": "Washable Chubby Markers Classroom, Pack of Set of 128",
+      "availableSizes": ["X", "L", "XXL"],
+      "price": 12,
+      "isFreeShipping": true
+    },
+  
+    {
+      "id": 2,
+      "sku": 2,
+      "title": "Ticonderoga No. 2 Pencils - With Erasers, Set of 12",
+      "availableSizes": ["X", "M"],
+      "price": 24,
+      "isFreeShipping": true
+    },
+    
+    {
+      "id": 3,
+      "sku": 3,
+      "title": "Colorations Classic Colors Best Value Dough - 18 lbs",
+      "availableSizes": ["X", "M", "L","XXL"],
+      "price": 24,
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 4,
+      "sku": 4,
+      "title": "Colorations fun Dough Scissors - Set of 12",
+      "availableSizes": ["XL","XXL"],
+      "price": 35,
+      "isFreeShipping": false
+    },
+
+    {
+      "id": 5,
+      "sku": 5,
+      "title": "X-ACTO Battery-Powered Pencil Sharpener",
+      "availableSizes": ["X","XXL", "L", "XL"],
+      "price": 32,
+      "isFreeShipping": false
+    },
+
+    {
+      "id": 6,
+      "sku": 6,
+      "title": "Colorations IncredibleFoam Dough - Sampler Pack",
+      "availableSizes": ["XL","S", "XXL"],
+      "price": 10,
+      "isFreeShipping": false
+    },
+
+    {
+      "id": 7,
+      "sku": 7,
+      "title": "Colorations Washable PURPLE Glue Sticks, 0.32 oz",
+      "availableSizes": ["S"],
+      "price": 15,
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 8,
+      "sku": 8,
+      "title": "Expo Dry-Erase Starter Set 6 Piece Set",
+      "availableSizes": ["XL","S"],
+      "price": 28,
+      "isFreeShipping": false
+    },
+
+    {
+      "id": 9,
+      "sku": 9,
+      "title": "Colorations Chubby Crayon Eggs Set of 8",
+      "availableSizes": ["L","S", "XL"],
+      "price": 23,
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 10,
+      "sku": 10,
+      "title": "Colorations Aleene's Original Tacky Glue - 4oz",
+      "availableSizes": ["L","S", "XL"],
+      "price": 12,
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 11,
+      "sku": 11,
+      "title": "Colorations Wooden Sculpting Tools - Set of 5",
+      "availableSizes": ["L", "XL"],
+      "price": 20,
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 12,
+      "sku": 12,
+      "title": "Colorations Washable Sidewalk Chalk - 50 Pieces",
+      "availableSizes": ["X","XXL", "L", "XL"],
+      "price": 45,
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 13,
+      "sku": 13,
+      "title": "Colorations Creative Creatures Dough Builders - 260 Pieces",
+      "availableSizes": ["X","XXL", "L", "XL"],
+      "price": 12,
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 14,
+      "sku": 14,
+      "title": "Colorations Clay Mega Set - 28 Pieces",
+      "availableSizes": ["X","XXL", "L", "XL"],
+      "price": 16,
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 15,
+      "sku": 15,
+      "title": "Colorations Primary pencils - With Erasers, Set of 144",
+      "availableSizes": ["X","XXL", "L", "XL"],
+      "price": 12,
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 16,
+      "sku": 16,
+      "title": "Colorations Incredible Foam Dough Buckets - Set of 4",
+      "availableSizes": ["X","XXL", "L", "XL"],
+      "price": 17,
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 17,
+      "sku": 17,
+      "title": "Colorations Incredible Foam Dough Buckets - Set of 4",
+      "availableSizes": ["X","XXL", "L", "XL"],
+      "price": 24,
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 18,
+      "sku": 18,
+      "title": "Colorations Super Lightweight Air - Dry Putty Colors",
+      "availableSizes": ["X","XXL", "L", "XL"],
+      "price": 27,
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 19,
+      "sku": 19,
+      "title": "Colorations ABC Modeling mats Set of 26",
+      "availableSizes": ["X","XXL", "L", "XL"],
+      "price": 31,
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 20,
+      "sku": 20,
+      "title": "Maped 5 Spring - Assisted Education Scissors Set of 10",
+      "availableSizes": ["X","XXL", "L", "XL"],
+      "price": 36,
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 21,
+      "sku": 21,
+      "title": "Colorations Assorted Bead Bucket, 2.5lb, approx 3500 Beads",
+      "availableSizes": ["X","XXL", "L", "XL"],
+      "price": 12,
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 22,
+      "sku": 2,
+      "title": "Rexlace Colorful Lacing - 100 - Yard Spools",
+      "availableSizes": ["X","XXL", "L", "XL"],
+      "price": 29,
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 23,
+      "sku": 23,
+      "title": "Roylco Yarn & Bead Needles, Set of 32",
+      "availableSizes": ["X","XXL", "L", "XL"],
+      "price": 12,
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 24,
+      "sku": 24,
+      "title": "Single Color Pony Bead Packs - 1/2 lb",
+      "availableSizes": ["X","XXL", "L", "XL"],
+      "price": 24,
+      "isFreeShipping": true
+    }
+
+  ]
+}
