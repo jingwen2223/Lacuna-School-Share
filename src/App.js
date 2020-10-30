@@ -10,12 +10,12 @@ class App extends Component {
   render() {
     return (
       <Provider store={store}>
-        <div className="alert alert-info" >
-          School Supplies
+        <div className="alert alert-info">
+          School Supplie
           <hr />
           <div className="container">
             <div className="col-md-14">
-            <Bag />
+              <Bag />
               <hr />
               <Sort_Items />
               <hr />
@@ -28,7 +28,6 @@ class App extends Component {
           </div>
         </div>
       </Provider>
-      
     );
   }
 }
