@@ -1,0 +1,17 @@
+#mainFooter {
+    background: #444;
+    color: white;
+    padding: 1rem;
+}
+.contact {
+    font-size: 1.5rem;
+}
+
+.email {
+    font-size: 1.25rem;
+}
+
+.copyright {
+    text-align: center;
+    
+}
