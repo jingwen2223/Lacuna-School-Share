@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import util from "../util";
-import { addToCart, fetchProducts } from "../actions/shopping_cart";
+import util from "./../../util";
+import { addToCart, fetchProducts } from "./../../actions/shopping_cart";
 
 class Items extends Component {
   componentDidMount() {

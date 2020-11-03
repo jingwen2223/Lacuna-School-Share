@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import { filterProducts} from "../actions/shopping_cart";
+import { filterProducts} from "../../actions/shopping_cart";
 
-class Sort_Items extends Component {
+class SortItems extends Component {
   render() {
     return (
       <div className="row">
@@ -42,5 +42,5 @@ const mapStateToProps = (state) => ({
   size: state.products.size,
 });
 export default connect(mapStateToProps, {filterProducts })(
-  Sort_Items
+  SortItems
 );
