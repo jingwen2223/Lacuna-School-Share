@@ -47,4 +47,3 @@ render() {
 
 export default LandingPage;
 
-<img src={"products/27.png"} class="d-block w-100" alt="Third Picture"></img>
