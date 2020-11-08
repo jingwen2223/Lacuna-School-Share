@@ -13,7 +13,7 @@ class Sort_Items extends Component {
             {" "}
             Sort By Category
             <select
-              className="form-control" value={this.props.size}
+              className="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" value={this.props.type}
 
               onChange={(event) => {
                 this.props.filterProducts(
@@ -23,12 +23,13 @@ class Sort_Items extends Component {
               }}
             >
               <option value="">Relevance</option>
-              <option value="x">Teacher Supplies</option>
-              <option value="s">Arts and Crafts Supplies</option>
-              <option value="m">Crayons,Markers,Glue</option>
-              <option value="l">Paint Tools</option>
-              <option value="xl">Staplers</option>
-              <option value="xxl">Dough and Foam Dough</option>
+              <option value="T">Teacher Supplies</option>
+              <option value="A">Arts and Crafts Supplies</option>
+              <option value="C">Crayons,Markers,Glue</option>
+              <option value="P">Paint Tools</option>
+              <option value="S">Staplers</option>
+              <option value="D">Dough and Foam Dough</option>
+              <option value="O">Other Tools</option>
             </select>
           </label>
         </div>
@@ -39,7 +40,7 @@ class Sort_Items extends Component {
 const mapStateToProps = (state) => ({
   products: state.products.items,
   filteredProducts: state.products.filteredItems,
-  size: state.products.size,
+  type: state.products.type,
 });
 export default connect(mapStateToProps, {filterProducts })(
   Sort_Items
