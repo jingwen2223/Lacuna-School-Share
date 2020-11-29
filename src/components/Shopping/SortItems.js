@@ -1,24 +1,28 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import { filterProducts} from "../actions/shopping_cart";
+import { filterProducts } from "../../actions/shopping_cart";
 
-class Sort_Items extends Component {
+class SortItems extends Component {
   render() {
     return (
       <div className="row">
-        <div className="col-md-3">{`${this.props.filteredProducts.length} available.`}
+        <div className="col-md-3">
+          {`${this.props.filteredProducts.length} available.`}
         </div>
         <div className="col-md-3">
           <label>
             {" "}
             Sort By Category
             <select
-              className="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" value={this.props.type}
-
+              className="btn btn-primary dropdown-toggle dropdown-toggle-split"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              value={this.props.type}
               onChange={(event) => {
                 this.props.filterProducts(
                   this.props.products,
-                      event.target.value
+                  event.target.value
                 );
               }}
             >
@@ -42,6 +46,4 @@ const mapStateToProps = (state) => ({
   filteredProducts: state.products.filteredItems,
   type: state.products.type,
 });
-export default connect(mapStateToProps, {filterProducts })(
-  Sort_Items
-);
+export default connect(mapStateToProps, { filterProducts })(SortItems);

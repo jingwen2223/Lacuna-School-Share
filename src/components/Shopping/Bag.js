@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import util from "../util";
-import { addToCart, removeFromCart } from "../actions/shopping_cart";
+import util from "./../../util";
+import { addToCart, removeFromCart } from "./../../actions/shopping_cart";
 
 class Bag extends Component {
   render() {
