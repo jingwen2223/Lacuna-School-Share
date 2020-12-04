@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import { Provider } from "react-redux";
-import Items from "./components/Items";
-import Bag from "./components/Bag";
+import Items from "./components/Shopping/Items";
+import Bag from "./components/Shopping/Bag";
 import store from "./store";
-import Links from "./components/Links";
-import Sort_Items from "./components/Sort_Items";
+import Links from "./components/Shopping/Links";
+import Sort_Items from "./components/Shopping/SortItems";
 
 class App extends Component {
   render() {
