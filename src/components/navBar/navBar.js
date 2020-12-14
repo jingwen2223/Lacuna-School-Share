@@ -29,9 +29,9 @@ class Navbar extends React.Component {
                 <li className={styles.darkBg}>
                   <Link to="/Checkout">Checkout</Link>
                 </li>
-                <li className={styles.darkBg}>
+                {/* <li className={styles.darkBg}>
                   <Link to="/Dashboard">Dashboard</Link>
-                </li>
+                </li> */}
               </ul>
             </nav>
 
