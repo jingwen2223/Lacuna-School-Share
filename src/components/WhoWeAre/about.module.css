@@ -1,0 +1,36 @@
+#who {
+    display: flex;
+  }
+  
+  #who div {
+    flex: 1;
+  }
+  
+  #who .whoImg {
+    background: url(../img/31.png) no-repeat center center/cover;
+  }
+  
+  /* utlity */
+  .list {
+    margin: 0.5rem 0;
+    list-style: none;
+  }
+  
+  .mHeading {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+  }
+  
+  .textPrimary {
+    color: rgb(44, 138, 167);
+  }
+  
+  .bgDark {
+    background: #333;
+    color: #f4f4f4;
+  }
+  
+  .p2 {
+    padding: 2rem;
+  }
