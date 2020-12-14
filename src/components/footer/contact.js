@@ -6,7 +6,7 @@ class Contact extends React.Component {
     return (
       <footer id={styles.mainFooter}>
         <div className={styles.contact}>
-          Contact: <span className={styles.email}>lorem@waterworks.co</span>
+          Contact: <span className={styles.email}>lorem@Lacuna.co</span>
         </div>
         <div className={styles.contact}>
           Location: <span className={styles.email}>250 Bedford Park</span>
@@ -16,7 +16,7 @@ class Contact extends React.Component {
         </div>
 
         <p className={styles.copyright}>
-          WaterWorks &copy; 2020, All Rights Reserved
+          Lucuna &copy; 2020, All Rights Reserved
         </p>
       </footer>
     );
