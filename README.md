@@ -1,3 +1,6 @@
+Software Engineering group project cmp408. 8 group members:
+Bryan Alberto, Artjola Meli, Jingwen Guan, Mohammed Ovi, Edison Blum, Araf Rahman, Arturo Flores, Joshua Henry
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## How to run app locally
